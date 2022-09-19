@@ -1,0 +1,21 @@
+{
+  "name": "payoneer",
+  "version": "1.0.0",
+  "description": "Paynoneer Payment Gateway",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.12.1",
+    "pug": "^2.0.3",
+    "request-promise": "^4.2.6",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anish",
+  "license": "ISC"
+}
